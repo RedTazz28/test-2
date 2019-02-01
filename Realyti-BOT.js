@@ -38,12 +38,12 @@ client.on('message', message => {
         console.log('bref salut');
     }
     
-    if (message.content === "a"){
+    if (message.content === "!!!test code"){
         message.reply("");
         console.log('bref salut');
     }    
 
- if (message.content === ""){
+ if (message.content === "!!!avec"){
         message.reply("");
         console.log('bref salut');
     }   
