@@ -15,7 +15,7 @@ const client = new Discord.Client();
 
 var prefix = "*";
 
-client.login(NDY1NjE4NjI2NDA2NTE0Njg4.DzbomA.QalvzG6rLG7XAsrTyrsTlhdkHXI);
+client.login();
 
 client.on("ready", () => {
     console.log("je suis pret !");
